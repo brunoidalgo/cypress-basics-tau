@@ -5,8 +5,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl:'https://cypress.io',
-    viewportHeight: 550,
+    baseUrl:'https://bugbank.netlify.app/',
+    viewportHeight: 1080,
     viewportWidth: 660
   },
 });
